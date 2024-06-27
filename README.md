@@ -1,7 +1,7 @@
-# JobScheduler
+# Dynamic Job Scheduler with Real-Time Execution Tracking
 This project is a Java-based job scheduling system designed to manage and schedule jobs with dependencies. It ensures efficient execution order and detects potential cycles within the job graph. The system uses dynamic arrays for flexible job management and provides real-time feedback on job start times and overall schedule completion.
 
-Features:
+## Features:
 
 - Job Insertion and Management: Add jobs with specific durations and define dependencies to ensure correct execution order.
 - Topological Sorting and Cycle Detection: Determine the correct order of job execution and detect cycles in the job graph.
@@ -9,7 +9,7 @@ Features:
 - Shortest Path Calculation: Compute the earliest possible start times for jobs and the overall finish time using shortest path algorithms in a Directed Acyclic Graph (DAG).
 - Real-Time Feedback: Provide users with immediate updates on job scheduling and potential issues.
 
-Classes and Methods:
+## Classes and Methods:
 
 Schedule Class:
 
@@ -24,7 +24,7 @@ Methods: requires(Job from), start().
 Implements a dynamically resizing array for job management.
 Methods: add(Object obj), get(int index), clear(), isEmpty(), indexOf(Object obj), size().
 
-Usage:
+## Usage:
 
 1) Insert jobs and specify their durations.
 2) Define job dependencies using the requires method.
